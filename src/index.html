@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ 
+<!--   
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/shoppingbag.css"> -->
+
+</head>
+<body>
+<h1>Hi</h1>
+  <section id="itemsHolder">
+
+  </section>
+  <section id=priceHolder>
+
+  </section>
+  
+  <section id="modalHolder">
+
+  </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+                  <h4 class="modal-title">Item Description</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+          </div>
+          <div class="modal-body">
+                  <div class="container">
+                          <div class="row">
+                            <div class="col-sm" style="text-align: center">
+                                  <hr>
+                                  <span id="shirtName">PAISEL JEAN</span><br>
+                                  <small><sup>$<span></sup></small><b><span id="price">21</span></b>
+                                  <br>
+                                  <br><br>
+                                  PAISLEY <br>
+                                     <table cellspacing="5" cellpadding="2" style="width:40px;margin-left: 40%">
+                                        <tr>
+                                            <td style="background-color:rgb(182, 173, 173);height:22px"></td>
+                                            <td style="background-color:green;height:22px"></td>
+                                        </tr>
+                                      </table>
+                                      <br>
+                                       <select name="size" id="shirtSize">
+                                          <option value="Size">Size</option>
+                                          <option value="M">M</option>
+                                          <option value="S">S</option>
+                                        
+                                        </select>
+                                       <!-- <input type="number" style="width:40px; height:25px;" min=1 /> -->
+                                       <select name="qty" id="qnty">
+                                       
+                                        <option value="Qty:1">Qty:1</option>
+                                        <option value="Qty:2">Qty:2</option>
+                                        <option value="Qty:3">Qty:3</option>
+                                        <option value="Qty:4">Qty:4</option>
+                                      
+                                      </select>
+                                       
+                                       <br><br> <input type="button" id="editItem" value="EDIT" class="updateItem">
+                            </div>
+                            <div class="col-sm">
+                              <!-- <img id="image" src="images/shirt1.jpg" alt=""> -->
+                              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" id="image" src="images/shirt1.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/shirt2.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/shirt3.jpg" alt="Third slide">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- ending coursel -->
+
+                            </div>
+                           
+                          </div>
+                        </div>
+          </div>
+          <div class="modal-footer">
+            <button id="closeButn" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+<!--  
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/index.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+
+</body>
+</html>

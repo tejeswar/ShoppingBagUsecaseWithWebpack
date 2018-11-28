@@ -1,0 +1,44 @@
+{
+  "promotioncodes": [
+    {
+      "promocode": "JF10",
+      "value": 7
+    },
+    {
+      "promocode": "JF10",
+      "value": 7
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "img": "./images/shirt1.jpg",
+      "name": "Solid Red Tshirt",
+      "style": "Ms13k",
+      "color": "Red",
+      "size": "S",
+      "qty": "1",
+      "price": "11.00"
+    },
+    {
+      "id": 2,
+      "img": "./images/shirt2.jpg",
+      "name": "Solid Blue Tshirt",
+      "style": "MS14K",
+      "color": "Blue",
+      "size": "S",
+      "qty": "1",
+      "price": "9.00"
+    },
+    {
+      "id": 3,
+      "img": "./images/shirt3.jpg",
+      "name": "Solid Yellow Tshirt",
+      "style": "MS15K",
+      "color": "Yellow",
+      "size": "S",
+      "qty": "3",
+      "price": "15.00"
+    }
+  ]
+}
